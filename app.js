@@ -6,7 +6,7 @@ var port = process.env.port || 3000;
 var app = express();
 
 app.get('/', function(req,res) {
-    res.render('index.html')
+    res.render('index.html');
 });
 
 app.get('/reply', function(req,res) {
