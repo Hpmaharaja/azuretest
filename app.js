@@ -1,5 +1,5 @@
 //require the Twilio module and create a REST client
-var client = require('twilio')('AC17a94bae85e365bbfce5785fe658492c', 'cc845b37c30699ea527c44a9ac9b01eb');
+
 var express = require('express');
 var port = process.env.port || 3000;
 
