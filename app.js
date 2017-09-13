@@ -38,11 +38,11 @@ client.sendMessage({
 
 // Download the Node helper library from twilio.com/docs/node/install
 // These vars are your accountSid and authToken from twilio.com/user/account
-var accountSid = 'AC17a94bae85e365bbfce5785fe658492c';
-var authToken = "{{ cc845b37c30699ea527c44a9ac9b01eb }}";
+var accountSid = '###';
+var authToken = "{{ ### }}";
 
  
-client.sms.messages("MG6ce1702cff12a1587920ced76673037e").get(function(err, sms) {
+client.sms.messages("###").get(function(err, sms) {
     console.log(err);
     console.log(sms.body);
 });
